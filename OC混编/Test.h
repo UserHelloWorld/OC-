@@ -1,13 +1,15 @@
 //
-//  ViewController.h
+//  Test.h
 //  OC混编
 //
 //  Created by apple on 11/12/17.
 //  Copyright © 2017年 apple. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface Test : NSObject
+
+- (void)test;
 
 @end

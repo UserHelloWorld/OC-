@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		18F3CAF91FDE556600E9A9A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3CAF81FDE556600E9A9A0 /* AppDelegate.m */; };
-		18F3CAFC1FDE556600E9A9A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3CAFB1FDE556600E9A9A0 /* ViewController.m */; };
 		18F3CAFF1FDE556600E9A9A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3CAFD1FDE556600E9A9A0 /* Main.storyboard */; };
 		18F3CB011FDE556600E9A9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F3CB001FDE556600E9A9A0 /* Assets.xcassets */; };
 		18F3CB041FDE556600E9A9A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F3CB021FDE556600E9A9A0 /* LaunchScreen.storyboard */; };
 		18F3CB071FDE556600E9A9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3CB061FDE556600E9A9A0 /* main.m */; };
+		18F3CB0F1FDE568300E9A9A0 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3CB0E1FDE568300E9A9A0 /* Test.m */; };
+		18F3CB121FDE569600E9A9A0 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F3CB111FDE569600E9A9A0 /* Hello.swift */; };
+		18F3CB171FDE595200E9A9A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F3CB161FDE595200E9A9A0 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18F3CAF41FDE556600E9A9A0 /* OC混编.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC混编.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F3CAF71FDE556600E9A9A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F3CAF81FDE556600E9A9A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18F3CAFA1FDE556600E9A9A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18F3CAFB1FDE556600E9A9A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18F3CAFE1FDE556600E9A9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F3CB001FDE556600E9A9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F3CB031FDE556600E9A9A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F3CB051FDE556600E9A9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F3CB061FDE556600E9A9A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F3CB0D1FDE568300E9A9A0 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		18F3CB0E1FDE568300E9A9A0 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		18F3CB101FDE569500E9A9A0 /* OC混编-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OC混编-Bridging-Header.h"; sourceTree = "<group>"; };
+		18F3CB111FDE569600E9A9A0 /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		18F3CB151FDE595200E9A9A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F3CB161FDE595200E9A9A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +66,17 @@
 			children = (
 				18F3CAF71FDE556600E9A9A0 /* AppDelegate.h */,
 				18F3CAF81FDE556600E9A9A0 /* AppDelegate.m */,
-				18F3CAFA1FDE556600E9A9A0 /* ViewController.h */,
-				18F3CAFB1FDE556600E9A9A0 /* ViewController.m */,
+				18F3CB151FDE595200E9A9A0 /* ViewController.h */,
+				18F3CB161FDE595200E9A9A0 /* ViewController.m */,
+				18F3CB0D1FDE568300E9A9A0 /* Test.h */,
+				18F3CB0E1FDE568300E9A9A0 /* Test.m */,
+				18F3CB111FDE569600E9A9A0 /* Hello.swift */,
 				18F3CAFD1FDE556600E9A9A0 /* Main.storyboard */,
 				18F3CB001FDE556600E9A9A0 /* Assets.xcassets */,
 				18F3CB021FDE556600E9A9A0 /* LaunchScreen.storyboard */,
 				18F3CB051FDE556600E9A9A0 /* Info.plist */,
 				18F3CB061FDE556600E9A9A0 /* main.m */,
+				18F3CB101FDE569500E9A9A0 /* OC混编-Bridging-Header.h */,
 			);
 			path = "OC混编";
 			sourceTree = "<group>";
@@ -102,6 +112,7 @@
 				TargetAttributes = {
 					18F3CAF31FDE556600E9A9A0 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,9 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F3CAFC1FDE556600E9A9A0 /* ViewController.m in Sources */,
+				18F3CB0F1FDE568300E9A9A0 /* Test.m in Sources */,
 				18F3CB071FDE556600E9A9A0 /* main.m in Sources */,
+				18F3CB121FDE569600E9A9A0 /* Hello.swift in Sources */,
 				18F3CAF91FDE556600E9A9A0 /* AppDelegate.m in Sources */,
+				18F3CB171FDE595200E9A9A0 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +291,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE94XKB263;
 				INFOPLIST_FILE = "OC混编/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.cxw.OC--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OC混编/OC混编-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,12 +309,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KE94XKB263;
 				INFOPLIST_FILE = "OC混编/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.cxw.OC--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OC混编/OC混编-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

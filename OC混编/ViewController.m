@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "OC混编-Swift.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    Hello *h = [[Hello alloc] init];
+    [h test];
 }
 
 
